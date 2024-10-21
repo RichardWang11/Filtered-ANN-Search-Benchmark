@@ -6,7 +6,7 @@ a benchmark contains all vecor searchs (include dense vector, sparse vector, fil
     *Track 1: Filtered Search Track
     *Track 2: Out-Of-Distribution(OOD) Track
        The query vectors and vectors in database have different distributions in the share vector space.
-       ![image](https://github.com/user-attachments/assets/505bd372-60fb-407d-8b6b-07b69ebb81d0)
+       ![image](https://github.com/RichardWang11/Vector-Search-Benchmark/blob/main/OODtrack.png)
     *Track 3: Sparse Track
     *Track 4: Streaming Track
     
