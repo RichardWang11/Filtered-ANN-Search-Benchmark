@@ -17,5 +17,12 @@
    Evaluating vector search performance to adapt to changing data pattern, integrating new optimizations (e.g. ML-driven inference) to replace traditional heuristic scans, and improved distance computation methods.
 ### Datasets
 Reference this paper, we category the datasets into 5 types (https://ieeexplore.ieee.org/abstract/document/8681160):
+
+Name | n*(10^3) | d | RC | LID | Type
+---- | ---- | ----
+Nus* |269 |500| 1.67| 24.5| Image
+
+
+
 SIFT1M,SIFT100M; Deep1M; GIST1M;Msong;Audio;UQ-V;Crawl;GloVe;Enron
     
