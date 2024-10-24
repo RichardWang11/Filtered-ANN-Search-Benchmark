@@ -12,11 +12,11 @@
 *Track 4: *Streaming Track*
       While in practice such indices must support concurrent operations, we allow the index to batch process one class of operations at a time for simplicity. The index startswith zero points and must implement a “runbook” – a sequence of batches of insertion operations, deletion operations, and search commands in a ratio of roughly 4:4:1.
 
-### ![CANDY](https://arxiv.org/pdf/2406.19651)
+### [CANDY](https://arxiv.org/pdf/2406.19651)
    A Benchmark for Continuous Approximate Nearest Neighbor Search with Dynamic Data Ingestion
    Evaluating vector search performance to adapt to changing data pattern, integrating new optimizations (e.g. ML-driven inference) to replace traditional heuristic scans, and improved distance computation methods.
 ### Datasets
-Reference this ![paper](https://ieeexplore.ieee.org/abstract/document/8681160), we category the datasets into 5 types:
+Reference this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we category the datasets into 5 types:
 
 | Name   | n (×10^3) | d    | RC   | LID  | Type       |Distance|
 |--------|-----------|------|------|------|------------|------------|
@@ -30,7 +30,7 @@ Reference this ![paper](https://ieeexplore.ieee.org/abstract/document/8681160), 
 | Enron  | 95        | 1,369| 6.39 | 11.7 | Text       |L2|
 | Trevi  | 100       | 4,096| 2.95 | 9.2  | Image      ||
 | Notre  | 333       | 128  | 3.22 | 9.0  | Image      ||
-| ![SIFT](http://corpus-texmex.irisa.fr/)| 994       | 128  | 3.50 | 9.3  | Image      |L2|
+| [SIFT](http://corpus-texmex.irisa.fr/)| 994       | 128  | 3.50 | 9.3  | Image      |L2|
 | Deep   | 1,000     | 128  | 1.96 | 12.1 | Image      |L2|
 | Ben    | 1,098     | 128  | 1.96 | 8.3  | Image      ||
 | Gauss  | 2,000     | 512  | 3.36 | 19.6 | Synthetic  ||
@@ -42,7 +42,7 @@ Reference this ![paper](https://ieeexplore.ieee.org/abstract/document/8681160), 
 | UQ-V   | 3,038     | 256  | 8.39 | 7.2  | Video      ||
 | Kosarak| 75   | 27983 | - | -  | -     |Jaccard|
 | MovieLens-10M| 69    | 65134 | - | -  | Online-news-portal/Click-Stream data|Jaccard|
-|![NYTimes](https://archive.ics.uci.edu/dataset/164/bag+of+words)|256| 290 | - | -  | Text|Angular|
-|![Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)|60|784| - | -  | Image|L2|
+|[NYTimes](https://archive.ics.uci.edu/dataset/164/bag+of+words)|256| 290 | - | -  | Text|Angular|
+|[Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)|60|784| - | -  | Image|L2|
 SIFT1M,SIFT100M; Deep1M; GIST1M;Msong;Audio;UQ-V;Crawl;GloVe;Enron
     
