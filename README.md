@@ -1,37 +1,48 @@
 # Advanced-Vector-Search-Benchmarks & Datasets
-   Containing almost high dimentional vector search approaches include dense vector search, sparse vector search, and filter vector search...
+Containing high-dimensional vector search approaches, including dense vector search, sparse vector search, and filtered vector search.
+
 # ANNS Benchmarks
-## [FAISS](https://github.com/facebookresearch/faiss)[[paper](https://arxiv.org/pdf/2401.08281)]
-## Billion-scale BigANN benchmarks
-### [NeurIPS’23 competition](https://arxiv.org/pdf/2409.17424)
-### Track 1: Filtered Search Track
-### Track 2: Out-Of-Distribution(OOD) Track
-The query vectors and vectors in database have different distributions in the share vector space. ![image](https://github.com/RichardWang11/Vector-Search-Benchmark/blob/main/OODtrack.png) 
-### Track 3: Sparse Track
-Given a sparse query vector, the index should return the top-k results according to the maximal inner product between the vectors.
-### Track 4: Streaming Track
-while in practice such indices must support concurrent operations, we allow the index to batch process one class of operations at a time for simplicity. The index startswith zero points and must implement a “runbook” – a sequence of batches of insertion operations, deletion operations, and search commands in a ratio of roughly 4:4:1.
-## [Vector Filtering benchmarks](https://github.com/qdrant/ann-filtering-benchmark-datasets)
-## [DBWangGroupUNSW_nns_benchmark](https://github.com/DBAIWangGroup/nns_benchmark)
-## Li, Wen, Xuemin Lin, et al. ["Approximate nearest neighbor search on high dimensional data—experiments, analyses, and improvement."](https://ieeexplore.ieee.org/document/8681160) IEEE Transactions on Knowledge and Data Engineering 32.8 (2019): 1475-1488.
-## [CANDY](https://arxiv.org/pdf/2406.19651)
-A Benchmark for *Continuous Approximate Nearest Neighbor Search with Dynamic Data Ingestion* Evaluating vector search performance to adapt to changing data pattern, integrating new optimizations (e.g. ML-driven inference) to replace traditional heuristic scans, and improved distance computation methods.
+
+## [FAISS](https://github.com/facebookresearch/faiss) [[Paper](https://arxiv.org/pdf/2401.08281)]
+## Billion-scale BigANN Benchmarks
+### [NeurIPS’23 Competition](https://arxiv.org/pdf/2409.17424)
+#### Track 1: Filtered Search Track
+
+#### Track 2: Out-Of-Distribution (OOD) Track
+In this track, query vectors and database vectors have different distributions in the shared vector space.
+![OOD Track Image](https://github.com/RichardWang11/Vector-Search-Benchmark/blob/main/OODtrack.png)
+
+#### Track 3: Sparse Track
+Given a sparse query vector, the index should return the top-k results based on maximal inner product with database vectors.
+
+#### Track 4: Streaming Track
+For this track, the index must support concurrent operations, though for simplicity, it may batch-process one class of operation at a time. Starting with zero points, the index implements a "runbook" with batches of insertions, deletions, and searches in a 4:4:1 ratio.
+
+## Additional Benchmarks
+- [Vector Filtering Benchmarks](https://github.com/qdrant/ann-filtering-benchmark-datasets)
+- [DBWangGroupUNSW_nns_benchmark](https://github.com/DBAIWangGroup/nns_benchmark)
+- Li, Wen, Xuemin Lin, et al. ["Approximate nearest neighbor search on high dimensional data—experiments, analyses, and improvement."](https://ieeexplore.ieee.org/document/8681160) IEEE Transactions on Knowledge and Data Engineering 32.8 (2019): 1475-1488.
+- [CANDY](https://arxiv.org/pdf/2406.19651): A Benchmark for *Continuous Approximate Nearest Neighbor Search with Dynamic Data Ingestion*
+
 # VectorDB Benchmark
-## [VectorDB Benchmark](https://zilliz.com/vector-database-benchmark-tool?database=ZillizCloud%2CMilvus%2CElasticCloud%2CPgVector%2CPinecone%2CQdrantCloud%2CWeaviateCloud&dataset=medium&filter=none%2Clow%2Chigh&tab=1)
-VectorDBBench provides unbiased vector database benchmark results for mainstream vector databases and cloud services.
-### Database
-Zilliz Cloud;Milvus;Elastic Cloud;PgVector;Pinecone;Qdrant Cloud;Weaviate Cloud
-### Dataset
--Medium(Cohere1M of 768-dim vectors; OpenAI500K of 1,536-dim vectors)
--Large(Cohere10M of 768-dim vectors; OpenAI5M of 1,536-dim vectors)
-### Comparison results
-*QPS* shows the throughput of mainstream vector databases, showcasing their comprehensive QPS scores and rankings based on the scores, QPS, and recall rates.
 
-*P99 Latency* demonstrates the response speed of mainstream vector databases, showcasing their comprehensive P99 latency scores and rankings based on the scores, P99 latency, and recall rates.
+## [VectorDB Benchmark Tool](https://zilliz.com/vector-database-benchmark-tool?database=ZillizCloud%2CMilvus%2CElasticCloud%2CPgVector%2CPinecone%2CQdrantCloud%2CWeaviateCloud&dataset=medium&filter=none%2Clow%2Chigh&tab=1)
+VectorDBBench provides unbiased benchmarking results for mainstream vector databases and cloud services.
 
-The *Cost* Ranking compares the cost of mainstream vector databases, detailing their cost-performance ratios, rankings based on the ratio, and dollars per one million queries.
-## [MyScales's Vector Database Benchmark](https://myscale.github.io/benchmark/#/benchmark)
-Update results of Zilliz Cloud (version 2024-04-03)
+#### Databases
+Zilliz Cloud, Milvus, Elastic Cloud, PgVector, Pinecone, Qdrant Cloud, Weaviate Cloud
+
+#### Datasets
+- **Medium**: Cohere1M of 768-dim vectors, OpenAI500K of 1,536-dim vectors
+- **Large**: Cohere10M of 768-dim vectors, OpenAI5M of 1,536-dim vectors
+
+#### Comparison Metrics
+- **QPS**: Throughput showcasing QPS scores and rankings based on QPS and recall.
+- **P99 Latency**: Response speed measured by P99 latency scores and rankings.
+- **Cost Ranking**: Cost-performance ratio detailing dollars per million queries.
+
+## [MyScale’s Vector Database Benchmark](https://myscale.github.io/benchmark/#/benchmark)
+Updated results for Zilliz Cloud (version 2024-04-03)
 
 # Datasets
 Reference this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we category the datasets into 8 types:
