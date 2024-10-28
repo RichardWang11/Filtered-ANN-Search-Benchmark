@@ -13,6 +13,7 @@ Given a sparse query vector, the index should return the top-k results according
 while in practice such indices must support concurrent operations, we allow the index to batch process one class of operations at a time for simplicity. The index startswith zero points and must implement a “runbook” – a sequence of batches of insertion operations, deletion operations, and search commands in a ratio of roughly 4:4:1.
 ## [Vector Filtering benchmarks](https://github.com/qdrant/ann-filtering-benchmark-datasets)
 ## [DBWangGroupUNSW_nns_benchmark](https://github.com/DBAIWangGroup/nns_benchmark)
+## Li, Wen, Xuemin Lin, et al. ["Approximate nearest neighbor search on high dimensional data—experiments, analyses, and improvement."](https://ieeexplore.ieee.org/document/8681160) IEEE Transactions on Knowledge and Data Engineering 32.8 (2019): 1475-1488.
 ## [CANDY](https://arxiv.org/pdf/2406.19651)
 A Benchmark for *Continuous Approximate Nearest Neighbor Search with Dynamic Data Ingestion* Evaluating vector search performance to adapt to changing data pattern, integrating new optimizations (e.g. ML-driven inference) to replace traditional heuristic scans, and improved distance computation methods.
 # VectorDB Benchmark
