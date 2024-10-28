@@ -5,11 +5,11 @@
 ## Billion-scale BigANN benchmarks
 ### [NeurIPS’23 competition](https://arxiv.org/pdf/2409.17424)
 ### Track 1: Filtered Search Track
-### Track 2: Out-Of-Distribution(OOD) Track:
+### Track 2: Out-Of-Distribution(OOD) Track
 The query vectors and vectors in database have different distributions in the share vector space. ![image](https://github.com/RichardWang11/Vector-Search-Benchmark/blob/main/OODtrack.png) 
-### Track 3: Sparse Track:
+### Track 3: Sparse Track
 Given a sparse query vector, the index should return the top-k results according to the maximal inner product between the vectors.
-### Track 4: Streaming Track:
+### Track 4: Streaming Track
 while in practice such indices must support concurrent operations, we allow the index to batch process one class of operations at a time for simplicity. The index startswith zero points and must implement a “runbook” – a sequence of batches of insertion operations, deletion operations, and search commands in a ratio of roughly 4:4:1.
 
 ## [Vector Filtering benchmarks](https://github.com/qdrant/ann-filtering-benchmark-datasets)
@@ -18,22 +18,19 @@ A Benchmark for *Continuous Approximate Nearest Neighbor Search with Dynamic Dat
 ## [VectorDB Benchmark](https://zilliz.com/vector-database-benchmark-tool?database=ZillizCloud%2CMilvus%2CElasticCloud%2CPgVector%2CPinecone%2CQdrantCloud%2CWeaviateCloud&dataset=medium&filter=none%2Clow%2Chigh&tab=1)
 VectorDBBench provides unbiased vector database benchmark results for mainstream vector databases and cloud services.
 ### Database
-Zilliz Cloud
-Milvus
-Elastic Cloud
-PgVector
-Pinecone
-Qdrant Cloud
-Weaviate Cloud
+Zilliz Cloud;Milvus;Elastic Cloud;PgVector;Pinecone;Qdrant Cloud;Weaviate Cloud
 ### Dataset
--Medium(2 datasets: *Cohere, 1M of 768-dim vectors*; OpenAI, 500K of 1,536-dim vectors)
--Large(2 datasets: *Cohere, 10M of 768-dim vectors*; OpenAI, 5M of 1,536-dim vectors)
+-Medium(Cohere1M of 768-dim vectors; OpenAI500K of 1,536-dim vectors)
+-Large(Cohere10M of 768-dim vectors; OpenAI5M of 1,536-dim vectors)
 ### Comparison results
-*QPS* table shows the throughput of mainstream vector databases, showcasing their comprehensive QPS scores and rankings based on the scores, QPS, and recall rates.
+*QPS* shows the throughput of mainstream vector databases, showcasing their comprehensive QPS scores and rankings based on the scores, QPS, and recall rates.
 
-*P99 Latency* table demonstrates the response speed of mainstream vector databases, showcasing their comprehensive P99 latency scores and rankings based on the scores, P99 latency, and recall rates.
+*P99 Latency* demonstrates the response speed of mainstream vector databases, showcasing their comprehensive P99 latency scores and rankings based on the scores, P99 latency, and recall rates.
 
-The *Cost* Ranking table compares the cost of mainstream vector databases, detailing their cost-performance ratios, rankings based on the ratio, and dollars per one million queries.
+The *Cost* Ranking compares the cost of mainstream vector databases, detailing their cost-performance ratios, rankings based on the ratio, and dollars per one million queries.
+## [MyScales's Vector Database Benchmark](https://myscale.github.io/benchmark/#/benchmark)
+Update results of Zilliz Cloud (version 2024-04-03)
+## [DBWangGroupUNSW_nns_benchmark](https://github.com/DBAIWangGroup/nns_benchmark)
 # Datasets
 Reference this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we category the datasets into 8 types:
 
@@ -59,8 +56,8 @@ Reference this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), w
 | Msong  | 922       | 420  | 3.81 | 9.5  | Audio      ||
 | Yout   | 346       | 1,770| 2.29 | 12.6 | Video      ||
 | UQ-V   | 3,038     | 256  | 8.39 | 7.2  | Video      ||
-| Kosarak| 75   | 27983 | - | -  | -     |Jaccard|
-| MovieLens-10M| 69    | 65134 | - | -  | Online-news-portal/Click-Stream data|Jaccard|
+| [Kosarak](http://fimi.uantwerpen.be/data/)| 75   | 27983 | - | -  | -     |Jaccard|
+| [MovieLens-10M](https://grouplens.org/datasets/movielens/10m/)| 69    | 65134 | - | -  | Online-news-portal/Click-Stream data|Jaccard|
 |[NYTimes](https://archive.ics.uci.edu/dataset/164/bag+of+words)|256| 290 | - | -  | Text|Angular|
 |[Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)|60|784| - | -  | Image|L2|
 |[DRP10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1000|768| - | -  | Text|IP|
