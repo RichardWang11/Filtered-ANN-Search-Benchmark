@@ -49,10 +49,10 @@ Reference this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), w
 
 | Name   | n (×10^3) | d    | RC   | LID  | Type       |Distance|
 |--------|-----------|------|------|------|------------|------------|
-| Nus*   | 269       | 500  | 1.67 | 24.5 | Image      |L2|
-| Gist*  | 983       | 960  | 1.94 | 18.9 | Image      ||
-| Rand*  | 1,000     | 100  | 3.05 | 58.7 | Synthetic  ||
-| [Glove]*(https://github.com/stanfordnlp/GloVe) | 1,192     | 100  | 1.82 | 20.0 | Text       ||
+| Nus   | 269       | 500  | 1.67 | 24.5 | Image      |L2|
+| Gist  | 983       | 960  | 1.94 | 18.9 | Image      ||
+| Rand  | 1,000     | 100  | 3.05 | 58.7 | Synthetic  ||
+| [Glove](https://github.com/stanfordnlp/GloVe) | 1,192     | 100  | 1.82 | 20.0 | Text       ||
 | Cifa   | 50        | 512  | 1.97 | 9.0  | Image      ||
 | Mnist  | 69        | 784  | 2.38 | 6.5  | Image      |L2|
 | Sun    | 79        | 512  | 1.94 | 9.9  | Image      ||
