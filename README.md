@@ -50,7 +50,8 @@ Explore further benchmarking efforts by various organizations:
 - **BAIDU: [PUCK](https://github.com/baidu/puck/tree/main/ann-benchmarks)**
 - **HUAWEI: [OpenGauss-VectorDB](https://github.com/liu-peng-xi/openGauss-VectorDB/commit/73f3d77db4314dd31b0173744893c98de8834220)**
 # Datasets
-Reference this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we category the datasets into 8 types:
+
+Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we categorize the datasets into eight types:
 
 | Name   | n (×10^3) | d    | RC   | LID  | Type       |Distance|
 |--------|-----------|------|------|------|------------|------------|
