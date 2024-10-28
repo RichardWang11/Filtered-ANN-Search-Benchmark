@@ -60,7 +60,7 @@ Reference this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), w
 | Trevi  | 100       | 4,096| 2.95 | 9.2  | Image      ||
 | Notre  | 333       | 128  | 3.22 | 9.0  | Image      ||
 | [SIFT](http://corpus-texmex.irisa.fr/)| 994       | 128  | 3.50 | 9.3  | Image      |L2|
-| Deep   | 1,000     | 128  | 1.96 | 12.1 | Image      |L2|
+| Deep1M   | 1,000     | 128  | 1.96 | 12.1 | Image      |L2|
 | Ben    | 1,098     | 128  | 1.96 | 8.3  | Image      ||
 | Gauss  | 2,000     | 512  | 3.36 | 19.6 | Synthetic  ||
 | Imag   | 2,340     | 150  | 2.54 | 11.6 | Image      ||
@@ -69,14 +69,14 @@ Reference this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), w
 | Msong  | 922       | 420  | 3.81 | 9.5  | Audio      ||
 | Yout   | 346       | 1,770| 2.29 | 12.6 | Video      ||
 | UQ-V   | 3,038     | 256  | 8.39 | 7.2  | Video      ||
-| [Kosarak](http://fimi.uantwerpen.be/data/)| 75   | 27983 | - | -  | -     |Jaccard|
-| [MovieLens-10M](https://grouplens.org/datasets/movielens/10m/)| 69    | 65134 | - | -  | Online-news-portal/Click-Stream data|Jaccard|
+| [Kosarak](http://fimi.uantwerpen.be/data/)| 75 | 27983 | - | -  | -     |Jaccard|
+| [MovieLens-10M](https://grouplens.org/datasets/movielens/10m/)| 10,000| 65134 | - | -  | Online-news-portal/Click-Stream data|Jaccard|
 |[NYTimes](https://archive.ics.uci.edu/dataset/164/bag+of+words)|256| 290 | - | -  | Text|Angular|
 |[Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)|60|784| - | -  | Image|L2|
-|[DRP10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1000|768| - | -  | Text|IP|
-|[Open-images13M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1300|512| - | -  | Image|IP|
-|[RQA10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1000|768| - | -  | Text|IP|
-|[WIT1M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|100|512| - | -  | Text2Image|IP|
+|[DRP10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|10,000|768| - | -  | Text|IP|
+|[Open-images13M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|13,000|512| - | -  | Image|IP|
+|[RQA10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|10,000|768| - | -  | Text|IP|
+|[WIT1M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1,000|512| - | -  | Text2Image|IP|
     
 
 ## [PQ-based variants](https://raw.githubusercontent.com/wiki/facebookresearch/faiss/PQ_variants_Faiss_annotated.png)
