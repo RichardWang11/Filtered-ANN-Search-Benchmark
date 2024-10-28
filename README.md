@@ -1,7 +1,7 @@
 # Advanced-Vector-Search-Benchmarks & Datasets
    Containing almost high dimentional vector search approaches include dense vector search, sparse vector search, and filter vector search...
 # ANNS Benchmarks
-## [FAISS](https://github.com/facebookresearch/faiss)[paper](https://arxiv.org/pdf/2401.08281)
+## [FAISS](https://github.com/facebookresearch/faiss)[[paper](https://arxiv.org/pdf/2401.08281)]
 ## Billion-scale BigANN benchmarks
 ### [NeurIPS’23 competition](https://arxiv.org/pdf/2409.17424)
 ### Track 1: Filtered Search Track
