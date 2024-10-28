@@ -1,7 +1,7 @@
 # Advanced-Vector-Search-Benchmarks & Datasets
    Containing almost high dimentional vector search approaches include dense vector search, sparse vector search, and filter vector search...
-# Benchmarks
-## [FAISS](https://github.com/facebookresearch/faiss)
+# ANNS Benchmarks
+## [FAISS](https://github.com/facebookresearch/faiss)[paper](https://arxiv.org/pdf/2401.08281)
 ## Billion-scale BigANN benchmarks
 ### [NeurIPS’23 competition](https://arxiv.org/pdf/2409.17424)
 ### Track 1: Filtered Search Track
@@ -12,8 +12,10 @@ Given a sparse query vector, the index should return the top-k results according
 ### Track 4: Streaming Track
 while in practice such indices must support concurrent operations, we allow the index to batch process one class of operations at a time for simplicity. The index startswith zero points and must implement a “runbook” – a sequence of batches of insertion operations, deletion operations, and search commands in a ratio of roughly 4:4:1.
 ## [Vector Filtering benchmarks](https://github.com/qdrant/ann-filtering-benchmark-datasets)
+## [DBWangGroupUNSW_nns_benchmark](https://github.com/DBAIWangGroup/nns_benchmark)
 ## [CANDY](https://arxiv.org/pdf/2406.19651)
 A Benchmark for *Continuous Approximate Nearest Neighbor Search with Dynamic Data Ingestion* Evaluating vector search performance to adapt to changing data pattern, integrating new optimizations (e.g. ML-driven inference) to replace traditional heuristic scans, and improved distance computation methods.
+# VectorDB Benchmark
 ## [VectorDB Benchmark](https://zilliz.com/vector-database-benchmark-tool?database=ZillizCloud%2CMilvus%2CElasticCloud%2CPgVector%2CPinecone%2CQdrantCloud%2CWeaviateCloud&dataset=medium&filter=none%2Clow%2Chigh&tab=1)
 VectorDBBench provides unbiased vector database benchmark results for mainstream vector databases and cloud services.
 ### Database
@@ -29,7 +31,7 @@ Zilliz Cloud;Milvus;Elastic Cloud;PgVector;Pinecone;Qdrant Cloud;Weaviate Cloud
 The *Cost* Ranking compares the cost of mainstream vector databases, detailing their cost-performance ratios, rankings based on the ratio, and dollars per one million queries.
 ## [MyScales's Vector Database Benchmark](https://myscale.github.io/benchmark/#/benchmark)
 Update results of Zilliz Cloud (version 2024-04-03)
-## [DBWangGroupUNSW_nns_benchmark](https://github.com/DBAIWangGroup/nns_benchmark)
+
 # Datasets
 Reference this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we category the datasets into 8 types:
 
