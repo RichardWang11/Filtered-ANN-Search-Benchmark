@@ -2,9 +2,9 @@
    Containing almost high dimentional vector search approaches include dense vector search, sparse vector search, and filter vector search...
 # Benchmarks
 ## [FAISS](https://github.com/facebookresearch/faiss)
-## Billion-scale BigANN benchmarks [NeurIPS’23 competition](https://arxiv.org/pdf/2409.17424)
+## Billion-scale BigANN benchmarks
+### [NeurIPS’23 competition](https://arxiv.org/pdf/2409.17424)
 ### Track 1: Filtered Search Track
-
 ### Track 2: Out-Of-Distribution(OOD) Track:
 The query vectors and vectors in database have different distributions in the share vector space. ![image](https://github.com/RichardWang11/Vector-Search-Benchmark/blob/main/OODtrack.png) 
 ### Track 3: Sparse Track:
@@ -12,10 +12,28 @@ Given a sparse query vector, the index should return the top-k results according
 ### Track 4: Streaming Track:
 while in practice such indices must support concurrent operations, we allow the index to batch process one class of operations at a time for simplicity. The index startswith zero points and must implement a “runbook” – a sequence of batches of insertion operations, deletion operations, and search commands in a ratio of roughly 4:4:1.
 
-## [Filtering benchmarks](https://github.com/qdrant/ann-filtering-benchmark-datasets)
+## [Vector Filtering benchmarks](https://github.com/qdrant/ann-filtering-benchmark-datasets)
 ## [CANDY](https://arxiv.org/pdf/2406.19651)
-   A Benchmark for Continuous Approximate Nearest Neighbor Search with Dynamic Data Ingestion
-   Evaluating vector search performance to adapt to changing data pattern, integrating new optimizations (e.g. ML-driven inference) to replace traditional heuristic scans, and improved distance computation methods.
+A Benchmark for *Continuous Approximate Nearest Neighbor Search with Dynamic Data Ingestion* Evaluating vector search performance to adapt to changing data pattern, integrating new optimizations (e.g. ML-driven inference) to replace traditional heuristic scans, and improved distance computation methods.
+## [VectorDB Benchmark](https://zilliz.com/vector-database-benchmark-tool?database=ZillizCloud%2CMilvus%2CElasticCloud%2CPgVector%2CPinecone%2CQdrantCloud%2CWeaviateCloud&dataset=medium&filter=none%2Clow%2Chigh&tab=1)
+VectorDBBench provides unbiased vector database benchmark results for mainstream vector databases and cloud services.
+### Database
+Zilliz Cloud
+Milvus
+Elastic Cloud
+PgVector
+Pinecone
+Qdrant Cloud
+Weaviate Cloud
+### Dataset
+-Medium(2 datasets: *Cohere, 1M of 768-dim vectors*; OpenAI, 500K of 1,536-dim vectors)
+-Large(2 datasets: *Cohere, 10M of 768-dim vectors*; OpenAI, 5M of 1,536-dim vectors)
+### Comparison results
+*QPS* table shows the throughput of mainstream vector databases, showcasing their comprehensive QPS scores and rankings based on the scores, QPS, and recall rates.
+
+*P99 Latency* table demonstrates the response speed of mainstream vector databases, showcasing their comprehensive P99 latency scores and rankings based on the scores, P99 latency, and recall rates.
+
+The *Cost* Ranking table compares the cost of mainstream vector databases, detailing their cost-performance ratios, rankings based on the ratio, and dollars per one million queries.
 # Datasets
 Reference this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we category the datasets into 8 types:
 
@@ -50,3 +68,4 @@ Reference this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), w
 |[RQA10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1000|768| - | -  | Text|IP|
 |[WIT1M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|100|512| - | -  | Text2Image|IP|
     
+## [PQ variants](https://raw.githubusercontent.com/wiki/facebookresearch/faiss/PQ_variants_Faiss_annotated.png)
