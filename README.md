@@ -16,7 +16,7 @@ while in practice such indices must support concurrent operations, we allow the 
    A Benchmark for Continuous Approximate Nearest Neighbor Search with Dynamic Data Ingestion
    Evaluating vector search performance to adapt to changing data pattern, integrating new optimizations (e.g. ML-driven inference) to replace traditional heuristic scans, and improved distance computation methods.
 # Datasets
-Reference this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we category the datasets into 5 types:
+Reference this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we category the datasets into 8 types:
 
 | Name   | n (×10^3) | d    | RC   | LID  | Type       |Distance|
 |--------|-----------|------|------|------|------------|------------|
@@ -44,7 +44,7 @@ Reference this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), w
 | MovieLens-10M| 69    | 65134 | - | -  | Online-news-portal/Click-Stream data|Jaccard|
 |[NYTimes](https://archive.ics.uci.edu/dataset/164/bag+of+words)|256| 290 | - | -  | Text|Angular|
 |[Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)|60|784| - | -  | Image|L2|
-|[DRP10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1000|768| - | -  | LLM|IP|
+|[DRP10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1000|768| - | -  | Text|IP|
 |[Open-images13M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1300|512| - | -  | Image|IP|
 |[RQA10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1000|768| - | -  | Text|IP|
 |[WIT1M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|100|512| - | -  | Text2Image|IP|
