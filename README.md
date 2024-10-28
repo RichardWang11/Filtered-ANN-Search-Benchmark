@@ -5,12 +5,11 @@ Containing high-dimensional vector search approaches, including dense vector sea
 
 ## [FAISS](https://github.com/facebookresearch/faiss) [[Paper](https://arxiv.org/pdf/2401.08281)]
 ## Billion-scale BigANN Benchmarks
-### [NeurIPS’23 Competition](https://arxiv.org/pdf/2409.17424)
+### [The Results of NeurIPS’23 Competition](https://arxiv.org/pdf/2409.17424)
 #### Track 1: Filtered Search Track
 
 #### Track 2: Out-Of-Distribution (OOD) Track
 In this track, query vectors and database vectors have different distributions in the shared vector space.
-![OOD Track Image](https://github.com/RichardWang11/Vector-Search-Benchmark/blob/main/OODtrack.png)
 
 #### Track 3: Sparse Track
 Given a sparse query vector, the index should return the top-k results based on maximal inner product with database vectors.
