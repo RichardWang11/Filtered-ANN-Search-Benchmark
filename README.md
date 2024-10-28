@@ -78,4 +78,5 @@ Reference this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), w
 |[RQA10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1000|768| - | -  | Text|IP|
 |[WIT1M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|100|512| - | -  | Text2Image|IP|
     
-## [PQ variants](https://raw.githubusercontent.com/wiki/facebookresearch/faiss/PQ_variants_Faiss_annotated.png)
+
+## [PQ-based variants](https://raw.githubusercontent.com/wiki/facebookresearch/faiss/PQ_variants_Faiss_annotated.png)
