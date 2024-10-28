@@ -1,4 +1,4 @@
-# Vector-Search-Benchmark & Datasets
+# Advanced-Vector-Search-Benchmarks & Datasets
    a benchmark contains all vecor searchs (include dense vector, sparse vector, filter vector search...)
 # Benchmarks
 ## Billion-scale BigANN benchmarks [NeurIPS’23 competition](https://arxiv.org/pdf/2409.17424)
