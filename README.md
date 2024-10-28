@@ -36,4 +36,8 @@ Reference this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), w
 | MovieLens-10M| 69    | 65134 | - | -  | Online-news-portal/Click-Stream data|Jaccard|
 |[NYTimes](https://archive.ics.uci.edu/dataset/164/bag+of+words)|256| 290 | - | -  | Text|Angular|
 |[Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)|60|784| - | -  | Image|L2|
+|[DRP10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1000|768| - | -  | LLM|IP|
+|[Open-images13M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1300|512| - | -  | Image|IP|
+|[RQA10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1000|768| - | -  | Text|IP|
+|[WIT1M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|100|512| - | -  | Text2Image|IP|
     
