@@ -16,7 +16,7 @@ Winner: PyANNs [[github](https://github.com/veaaaab/pyanns)] (by Zihao Wang, SJT
 Given a sparse query vector, the index should return the top-k results based on maximal inner product with database vectors.
 
 #### Track 4: Streaming Track
-For this track, the index must support concurrent operations, though for simplicity, it may batch-process one class of operation at a time. Starting with zero points, the index implements a "runbook" with batches of insertions, deletions, and searches in a 4:4:1 ratio. Winner: [PUCK](https://github.com/baidu/puck) (baidu)
+For this track, the index must support concurrent operations, though for simplicity, it may batch-process one class of operation at a time. Starting with zero points, the index implements a "runbook" with batches of insertions, deletions, and searches in a 4:4:1 ratio. Winner: PUCK [[github](https://github.com/baidu/puck)] (baidu)
 
 ## Additional Benchmarks
 - [Vector Filtering Benchmarks](https://github.com/qdrant/ann-filtering-benchmark-datasets)
