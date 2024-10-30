@@ -76,13 +76,21 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 | Yout   | 346       | 1,770| 2.29 | 12.6 | Video      ||
 | UQ-V   | 3,038     | 256  | 8.39 | 7.2  | Video      ||
 | [Kosarak](http://fimi.uantwerpen.be/data/)| 75 | 27983 | - | -  | -     |Jaccard|
-| [MovieLens-10M](https://grouplens.org/datasets/movielens/10m/)| 10,000| 65134 | - | -  | Online-news-portal/Click-Stream data|Jaccard|
 |[NYTimes](https://archive.ics.uci.edu/dataset/164/bag+of+words)|256| 290 | - | -  | Text|Angular|
 |[Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)|60|784| - | -  | Image|L2|
-|[DRP10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|10,000|768| - | -  | Text|IP|
-|[Open-images13M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|13,000|512| - | -  | Image|IP|
-|[RQA10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|10,000|768| - | -  | Text|IP|
-|[WIT1M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1,000|512| - | -  | Text2Image|IP|
+
+Online Streaming Datasets
+| Name   | n (×10^3) | d    |Distance|
+|--------|-----------|------|------|
+| [MovieLens-10M](https://grouplens.org/datasets/movielens/10m/)| 10,000| 65134 | Online-news-portal/Click-Stream|Jaccard|
+
+Deep Learning Datasets
+| Name   | n (×10^3) | d    |Distance|
+|--------|-----------|------|------|
+|[DRP10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|10,000|768| Text|IP|
+|[Open-images13M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|13,000|512| Image|IP|
+|[RQA10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|10,000|768| Text|IP|
+|[WIT1M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1,000|512| Text2Image|IP|
     
 
 ## [PQ-based variants](https://raw.githubusercontent.com/wiki/facebookresearch/faiss/PQ_variants_Faiss_annotated.png)
