@@ -9,7 +9,8 @@ Containing high-dimensional vector search approaches, including dense vector sea
 #### Track 1: Filtered Search Track
 
 #### Track 2: Out-Of-Distribution (OOD) Track
-In this track, query vectors and database vectors have different distributions in the shared vector space. Winner: PyANNs[github](https://github.com/veaaaab/pyanns) (Zihao Wang, SJTU) RoarANN-VLDB24[paper](https://arxiv.org/abs/2408.08933)(Meng Chen, Fudan University)
+In this track, query vectors and database vectors have different distributions in the shared vector space. 
+Winner: PyANNs [[github](https://github.com/veaaaab/pyanns)] (by Zihao Wang, SJTU) RoarANN-VLDB24 [[paper](https://arxiv.org/abs/2408.08933)] (by Meng Chen, Fudan University)
 
 #### Track 3: Sparse Track
 Given a sparse query vector, the index should return the top-k results based on maximal inner product with database vectors.
