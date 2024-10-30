@@ -51,7 +51,7 @@ Explore further benchmarking efforts by various organizations:
 - **HUAWEI: [OpenGauss-VectorDB](https://github.com/liu-peng-xi/openGauss-VectorDB/commit/73f3d77db4314dd31b0173744893c98de8834220)**
 # Datasets
 
-Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we categorize the datasets into eight types:
+Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we categorize the datasets into eight types, which RC (Relative Contrast) is mean average distance / nearest neighbor distance, the smaller RC means the dataset is harder; LID (Local Intrinsic Dimensionality) the high LID means the dataset is hard to process:
 
 | Name   | n (×10^3) | d    | RC   | LID  | Type       |Distance|
 |--------|-----------|------|------|------|------------|------------|
