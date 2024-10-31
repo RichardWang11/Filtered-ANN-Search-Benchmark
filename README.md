@@ -5,6 +5,9 @@ Containing high-dimensional vector search approaches, including dense vector sea
 
 ## [FAISS](https://github.com/facebookresearch/faiss) [[Paper](https://arxiv.org/pdf/2401.08281)]
 ## Billion-scale BigANN Benchmarks
+### [The Results of NeurIPS’21 Challenge on Billion-Scale ANNS](https://proceedings.mlr.press/v176/simhadri22a/simhadri22a.pdf)
+#### Track 1: In-memory indices with FAISS as the baseline.
+#### Track 2: Out-of-core indices with DiskANN as the baseline. In addition to the limited DRAM in T1, index can use an SSD for search. 
 ### [The Results of NeurIPS’23 Competition](https://arxiv.org/pdf/2409.17424)
 #### Track 1: Filtered Search Track
 
@@ -52,8 +55,8 @@ Explore further benchmarking efforts by various organizations:
 # Datasets
 
 Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we categorize the datasets into eight types, which RC (Relative Contrast) is mean average distance / nearest neighbor distance, the smaller RC means the dataset is harder; LID (Local Intrinsic Dimensionality) the high LID means the dataset is hard to process:
-
-| Name   | n (×10^3) | d    | RC   | LID  | Type       |Distance|
+Dense Vector Datasets:
+| Name   | n (×10^3) | d    | RC   | LID  | Category  |Distance|
 |--------|-----------|------|------|------|------------|------------|
 | Nus   | 269       | 500  | 1.67 | 24.5 | Image      |L2|
 | Gist  | 983       | 960  | 1.94 | 18.9 | Image      ||
@@ -79,14 +82,35 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 |[NYTimes](https://archive.ics.uci.edu/dataset/164/bag+of+words)|256| 290 | - | -  | Text|Angular|
 |[Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)|60|784| - | -  | Image|L2|
 
-Online Streaming Datasets
-| Name   | n (×10^3) | d    |Distance|
-|--------|-----------|------|------|
+NeurIPS’21 competition datasets:[link](https://big-ann-benchmarks.com/neurips21.html)
+NeurIPS’23 competition datasets:[link](https://big-ann-benchmarks.com/neurips23.html)
+
+Filtered Dataset
+| Name   | Dim | Data-Type  |Category|Distance|
+|--------|-----------|------|------|------|
+| [YFCC-10M + CLIP]()| 192| uint8|Image|L2|
+
+OOD Dataset
+| Name   | Dim | Data-Type  |Category|Distance|
+|--------|-----------|------|------|------|
+| [Yandex Text2Image-10M]()| 200| float32|Cross-Model|L2|
+
+Sparse Dataset
+| Name   | Dim | Data-Type  |Category|Distance|
+|--------|-----------|------|------|------|
+| [MS-MARCO/SPLADE]()| 3000| float32(sparse)|Text|L2|
+
+
+Streaming Datasets
+| Name   | n (×10^3) | d    |Category|Distance|
+|--------|-----------|------|------|------|
 | [MovieLens-10M](https://grouplens.org/datasets/movielens/10m/)| 10,000| 65134 | Online-news-portal/Click-Stream|Jaccard|
+| [MSTuring-30M]()| 100| float32|Text|L2|
+
 
 Deep Learning Datasets
-| Name   | n (×10^3) | d    |Distance|
-|--------|-----------|------|------|
+| Name   | n (×10^3) | d    |Category|Distance|
+|--------|-----------|------|------|------|
 |[DRP10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|10,000|768| Text|IP|
 |[Open-images13M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|13,000|512| Image|IP|
 |[RQA10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|10,000|768| Text|IP|
