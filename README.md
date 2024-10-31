@@ -5,10 +5,10 @@ Containing high-dimensional vector search approaches, including dense vector sea
 
 ## [FAISS](https://github.com/facebookresearch/faiss) [[Paper](https://arxiv.org/pdf/2401.08281)]
 ## Billion-scale BigANN Benchmarks
-### [The Results of NeurIPS’21 Challenge on Billion-Scale ANNS](https://proceedings.mlr.press/v176/simhadri22a/simhadri22a.pdf)
+### The Results of NeurIPS’21 Challenge [[paper](https://proceedings.mlr.press/v176/simhadri22a/simhadri22a.pdf)][[datasets-link](https://big-ann-benchmarks.com/neurips21.html)]
 #### Track 1: In-memory indices with FAISS as the baseline.
 #### Track 2: Out-of-core indices with DiskANN as the baseline. In addition to the limited DRAM in T1, index can use an SSD for search. 
-### [The Results of NeurIPS’23 Competition](https://arxiv.org/pdf/2409.17424)
+### The Results of NeurIPS’23 Competition[[paper](https://arxiv.org/pdf/2409.17424)][[datasets-link]((https://big-ann-benchmarks.com/neurips23.html))]
 #### Track 1: Filtered Search Track
 
 #### Track 2: Out-Of-Distribution (OOD) Track
@@ -47,7 +47,6 @@ Zilliz Cloud, Milvus, Elastic Cloud, PgVector, Pinecone, Qdrant Cloud, Weaviate 
 ## [MyScale’s Vector Database Benchmark](https://myscale.github.io/benchmark/#/benchmark)
 Updated results for Zilliz Cloud (version 2024-04-03)
 ## Additional Vector Database Benchmarks
-
 Explore further benchmarking efforts by various organizations:
 - **Alibaba Ant Group: [VSAG](https://github.com/alipay/vsag)**
 - **BAIDU: [PUCK](https://github.com/baidu/puck/tree/main/ann-benchmarks)**
@@ -55,7 +54,7 @@ Explore further benchmarking efforts by various organizations:
 # Datasets
 
 Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we categorize the datasets into eight types, which RC (Relative Contrast) is mean average distance / nearest neighbor distance, the smaller RC means the dataset is harder; LID (Local Intrinsic Dimensionality) the high LID means the dataset is hard to process:
-Dense Vector Datasets:
+## Dense Vector Datasets
 | Name   | n (×10^3) | d    | RC   | LID  | Category  |Distance|
 |--------|-----------|------|------|------|------------|------------|
 | Nus   | 269       | 500  | 1.67 | 24.5 | Image      |L2|
@@ -82,10 +81,9 @@ Dense Vector Datasets:
 |[NYTimes](https://archive.ics.uci.edu/dataset/164/bag+of+words)|256| 290 | - | -  | Text|Angular|
 |[Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)|60|784| - | -  | Image|L2|
 
-NeurIPS’21 competition datasets:[link](https://big-ann-benchmarks.com/neurips21.html)
-NeurIPS’23 competition datasets:[link](https://big-ann-benchmarks.com/neurips23.html)
 
-Filtered Dataset
+
+## Filtered Dataset
 | Name   | Dim | Data-Type  |Category|Distance|
 |--------|-----------|------|------|------|
 | [YFCC-10M + CLIP]()| 192| uint8|Image|L2|
