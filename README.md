@@ -112,5 +112,6 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 |[RQA10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|10,000|768| Text|IP|
 |[WIT1M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1,000|512| Text2Image|IP|
     
-
+# Other useful links
 ## [PQ-based variants](https://raw.githubusercontent.com/wiki/facebookresearch/faiss/PQ_variants_Faiss_annotated.png)
+## [Speach of NeurIPS'21 competition](https://neurips.cc/virtual/2023/competition/66587)
