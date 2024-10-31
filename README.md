@@ -6,19 +6,19 @@ Containing high-dimensional vector search approaches, including dense vector sea
 ## [FAISS](https://github.com/facebookresearch/faiss) [[Paper](https://arxiv.org/pdf/2401.08281)]
 ## Billion-scale BigANN Benchmarks
 ### The Results of NeurIPS’21 Challenge [[paper](https://proceedings.mlr.press/v176/simhadri22a/simhadri22a.pdf)][[datasets-link](https://big-ann-benchmarks.com/neurips21.html)]
-#### Track 1: In-memory indices with FAISS as the baseline.
-#### Track 2: Out-of-core indices with DiskANN as the baseline. In addition to the limited DRAM in T1, index can use an SSD for search. 
+- Track 1: In-memory indices with FAISS as the baseline.
+- Track 2: Out-of-core indices with DiskANN as the baseline. In addition to the limited DRAM in T1, index can use an SSD for search. 
 ### The Results of NeurIPS’23 Competition[[paper](https://arxiv.org/pdf/2409.17424)][[datasets-link]((https://big-ann-benchmarks.com/neurips23.html))]
-#### Track 1: Filtered Search Track
+- Track 1: Filtered Search Track
 
-#### Track 2: Out-Of-Distribution (OOD) Track
+- Track 2: Out-Of-Distribution (OOD) Track
 In this track, query vectors and database vectors have different distributions in the shared vector space. 
 Winner: PyANNs [[github](https://github.com/veaaaab/pyanns)] (by Zihao Wang, SJTU) RoarANN-VLDB24 [[paper](https://arxiv.org/abs/2408.08933)] (by Meng Chen, Fudan University)
 
-#### Track 3: Sparse Track
+- Track 3: Sparse Track
 Given a sparse query vector, the index should return the top-k results based on maximal inner product with database vectors.
 
-#### Track 4: Streaming Track
+- Track 4: Streaming Track
 For this track, the index must support concurrent operations, though for simplicity, it may batch-process one class of operation at a time. Starting with zero points, the index implements a "runbook" with batches of insertions, deletions, and searches in a 4:4:1 ratio. Winner: PUCK [[github](https://github.com/baidu/puck)] (baidu)
 
 ## Additional Benchmarks
