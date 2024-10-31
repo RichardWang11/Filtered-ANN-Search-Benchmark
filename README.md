@@ -2,8 +2,6 @@
 Containing high-dimensional vector search approaches, including dense vector search, sparse vector search, and filtered vector search.
 
 # ANNS Benchmarks
-
-## [FAISS](https://github.com/facebookresearch/faiss) [[Paper](https://arxiv.org/pdf/2401.08281)]
 ## Billion-scale BigANN Benchmarks
 ### The Results of NeurIPS’21 Challenge [[paper](https://proceedings.mlr.press/v176/simhadri22a/simhadri22a.pdf)][[datasets-link](https://big-ann-benchmarks.com/neurips21.html)]
 - Track 1: In-memory indices with FAISS as the baseline.
@@ -48,6 +46,7 @@ Zilliz Cloud, Milvus, Elastic Cloud, PgVector, Pinecone, Qdrant Cloud, Weaviate 
 Updated results for Zilliz Cloud (version 2024-04-03)
 ## Additional Vector Database Benchmarks
 Explore further benchmarking efforts by various organizations:
+- **Meta: [FAISS](https://github.com/facebookresearch/faiss) [[Paper](https://arxiv.org/pdf/2401.08281)]**
 - **Alibaba Ant Group: [VSAG](https://github.com/alipay/vsag)**
 - **BAIDU: [PUCK](https://github.com/baidu/puck/tree/main/ann-benchmarks)**
 - **HUAWEI: [OpenGauss-VectorDB](https://github.com/liu-peng-xi/openGauss-VectorDB/commit/73f3d77db4314dd31b0173744893c98de8834220)**
@@ -88,25 +87,25 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 |--------|-----------|------|------|------|
 | [YFCC-10M + CLIP]()| 192| uint8|Image|L2|
 
-OOD Dataset
+## OOD Dataset
 | Name   | Dim | Data-Type  |Category|Distance|
 |--------|-----------|------|------|------|
 | [Yandex Text2Image-10M]()| 200| float32|Cross-Model|L2|
 
-Sparse Dataset
+## Sparse Dataset
 | Name   | Dim | Data-Type  |Category|Distance|
 |--------|-----------|------|------|------|
 | [MS-MARCO/SPLADE]()| 3000| float32(sparse)|Text|L2|
 
 
-Streaming Datasets
+## Streaming Datasets
 | Name   | n (×10^3) | d    |Category|Distance|
 |--------|-----------|------|------|------|
 | [MovieLens-10M](https://grouplens.org/datasets/movielens/10m/)| 10,000| 65134 | Online-news-portal/Click-Stream|Jaccard|
 | [MSTuring-30M]()| 100| float32|Text|L2|
 
 
-Deep Learning Datasets
+## Deep Learning Datasets
 | Name   | n (×10^3) | d    |Category|Distance|
 |--------|-----------|------|------|------|
 |[DRP10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|10,000|768| Text|IP|
