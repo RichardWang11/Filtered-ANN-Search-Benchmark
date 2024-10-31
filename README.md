@@ -22,7 +22,7 @@ For this track, the index must support concurrent operations, though for simplic
 - [Vector Filtering Benchmarks](https://github.com/qdrant/ann-filtering-benchmark-datasets)
 - [DBWangGroupUNSW_nns_benchmark](https://github.com/DBAIWangGroup/nns_benchmark)
 - Li, Wen, Xuemin Lin, et al. ["Approximate nearest neighbor search on high dimensional data—experiments, analyses, and improvement."](https://ieeexplore.ieee.org/document/8681160) IEEE Transactions on Knowledge and Data Engineering 32.8 (2019): 1475-1488.
-- [CANDY](https://arxiv.org/pdf/2406.19651): A Benchmark for *Continuous Approximate Nearest Neighbor Search with Dynamic Data Ingestion*
+- Xinjing Hu, Xuanhua Shi, Shixuan Sun, et al. CANDY: A Benchmark for Continuous Approximate Nearest Neighbor Search with Dynamic Data Ingestion [[github](https://github.com/intellistream/CANDY-Benchmark)][[paper](https://arxiv.org/pdf/2406.19651)]
 
 # VectorDB Benchmark
 
