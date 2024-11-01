@@ -100,7 +100,7 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 ## Streaming Datasets
 | Name   | n (×10^3) | d    |Category|Distance|
 |--------|-----------|------|------|------|
-| [MovieLens-10M](https://grouplens.org/datasets/movielens/10m/)| 10,000| 65134 | Online-news-portal/Click-Stream|Jaccard|
+| [MovieLens-10M](https://grouplens.org/datasets/movielens/10m/)| 10,000| 65134 | Video|Jaccard|
 | MSTuring-30M| 100| float32|Text|L2|
 
 
