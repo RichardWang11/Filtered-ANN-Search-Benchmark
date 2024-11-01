@@ -1,5 +1,5 @@
 # Advanced-Vector-Benchmarks & Datasets
-Containing high-dimensional vector search approaches, including dense vector search, sparse vector search, and filtered vector search.
+Including dense vector, sparse vector, filtered vector and streaming vector search.
 
 # ANNS Benchmarks
 ## Billion-scale ANNS Benchmarks
@@ -8,15 +8,16 @@ Containing high-dimensional vector search approaches, including dense vector sea
 - Track 2: Out-of-core indices with DiskANN as the baseline. In addition to the limited DRAM in T1, index can use an SSD for search. 
 ### The Results of NeurIPS’23 Competition[[paper](https://arxiv.org/pdf/2409.17424)][[datasets-link](https://big-ann-benchmarks.com/neurips23.html)]
 - Track 1: Filtered Search Track
-
+  Searching for entities using a mixture of their seman- tic properties and associated keywords is natural and pervasive.
+  **Winner: ParlayANN**
 - Track 2: Out-Of-Distribution (OOD) Track
-In this track, query vectors and database vectors have different distributions in the shared vector space. 
- **RoarANN-VLDB24 [[paper](https://arxiv.org/abs/2408.08933)] (by Meng Chen, Fudan University)**
+Query vectors and database vectors have different distributions in the shared vector space. 
+ **Winner: RoarANN-VLDB24 [[paper](https://arxiv.org/abs/2408.08933)] (by Meng Chen, Fudan University)**
 
 - Track 3: Sparse Track
 Given a sparse query vector, the index should return the top-k results based on maximal inner product with database vectors. **Winner: PyANNs [[github](https://github.com/veaaaab/pyanns)] (by Zihao Wang, SJTU)**
 - Track 4: Streaming Track
-For this track, the index must support concurrent operations, though for simplicity, it may batch-process one class of operation at a time. Starting with zero points, the index implements a "runbook" with batches of insertions, deletions, and searches in a 4:4:1 ratio. **Winner: PUCK [[github](https://github.com/baidu/puck)] (baidu)**
+The index must support concurrent operations, though for simplicity, it may batch-process one class of operation at a time. Starting with zero points, the index implements a "runbook" with batches of insertions, deletions, and searches in a 4:4:1 ratio. **Winner: PUCK [[github](https://github.com/baidu/puck)] (baidu)**
 
 ## Additional Benchmarks
 - [Vector Filtering Benchmarks](https://github.com/qdrant/ann-filtering-benchmark-datasets)
