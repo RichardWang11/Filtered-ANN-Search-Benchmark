@@ -6,7 +6,7 @@ Containing high-dimensional vector search approaches, including dense vector sea
 ### The Results of NeurIPS’21 Challenge [[paper](https://proceedings.mlr.press/v176/simhadri22a/simhadri22a.pdf)][[datasets-link](https://big-ann-benchmarks.com/neurips21.html)]
 - Track 1: In-memory indices with FAISS as the baseline.
 - Track 2: Out-of-core indices with DiskANN as the baseline. In addition to the limited DRAM in T1, index can use an SSD for search. 
-### The Results of NeurIPS’23 Competition[[paper](https://arxiv.org/pdf/2409.17424)][[datasets-link]((https://big-ann-benchmarks.com/neurips23.html))]
+### The Results of NeurIPS’23 Competition[[paper](https://arxiv.org/pdf/2409.17424)][[datasets-link](https://big-ann-benchmarks.com/neurips23.html)]
 - Track 1: Filtered Search Track
 
 - Track 2: Out-Of-Distribution (OOD) Track
@@ -84,24 +84,24 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 ## Filtered Dataset
 | Name   | Dim | Data-Type  |Category|Distance|
 |--------|-----------|------|------|------|
-| [YFCC-10M + CLIP]()| 192| uint8|Image|L2|
+| YFCC-10M + CLIP| 192| uint8|Image|L2|
 
 ## OOD Dataset
 | Name   | Dim | Data-Type  |Category|Distance|
 |--------|-----------|------|------|------|
-| [Yandex Text2Image-10M]()| 200| float32|Cross-Model|L2|
+| Yandex Text2Image-10M| 200| float32|Cross-Model|L2|
 
 ## Sparse Dataset
 | Name   | Dim | Data-Type  |Category|Distance|
 |--------|-----------|------|------|------|
-| [MS-MARCO/SPLADE]()| 3000| float32(sparse)|Text|L2|
+| MS-MARCO/SPLADE| 3000| float32(sparse)|Text|L2|
 
 
 ## Streaming Datasets
 | Name   | n (×10^3) | d    |Category|Distance|
 |--------|-----------|------|------|------|
 | [MovieLens-10M](https://grouplens.org/datasets/movielens/10m/)| 10,000| 65134 | Online-news-portal/Click-Stream|Jaccard|
-| [MSTuring-30M]()| 100| float32|Text|L2|
+| MSTuring-30M| 100| float32|Text|L2|
 
 
 ## Deep Learning Datasets
