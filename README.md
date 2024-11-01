@@ -109,7 +109,7 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 |[DRP10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|10,000|768| Text|IP|
 |[Open-images13M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|13,000|512| Image|IP|
 |[RQA10M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|10,000|768| Text|IP|
-|[WIT1M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1,000|512| Text2Image|IP|
+|[WIT1M](https://github.com/IntelLabs/VectorSearchDatasets/tree/main/dpr)|1,000|512| Cross-Model|IP|
     
 # Other useful links
 ## [PQ-based variants](https://raw.githubusercontent.com/wiki/facebookresearch/faiss/PQ_variants_Faiss_annotated.png)
