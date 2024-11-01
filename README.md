@@ -100,7 +100,7 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 ## Streaming Datasets
 | Name   |  Dim | Data-Type   |Category|Distance|
 |--------|-----------|------|------|------|
-| [MovieLens-10M](https://grouplens.org/datasets/movielens/10m/)| 10,000 |-｜Video|Jaccard|
+| [MovieLens-10M](https://grouplens.org/datasets/movielens/10m/)| 100  ｜-｜Text|Jaccard|
 | MSTuring-30M| 100| float32|Text|L2|
 
 
