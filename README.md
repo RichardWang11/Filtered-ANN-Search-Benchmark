@@ -20,8 +20,7 @@ Including dense vector, sparse vector, filtered vector and streaming vector sear
 - [DBWangGroupUNSW_NNS_Benchmark](https://github.com/DBAIWangGroup/nns_benchmark)
 - Li, Wen, Xuemin Lin, et al. ["Approximate nearest neighbor search on high dimensional data—experiments, analyses, and improvement."](https://ieeexplore.ieee.org/document/8681160) IEEE Transactions on Knowledge and Data Engineering 32.8 (2019): 1475-1488.
 - Xinjing Hu, Xuanhua Shi, Shixuan Sun, et al. CANDY: A Benchmark for Continuous Approximate Nearest Neighbor Search with Dynamic Data Ingestion. arXiv preprint arXiv:2406.19651 (2024)[[github](https://github.com/intellistream/CANDY-Benchmark)][[paper](https://arxiv.org/pdf/2406.19651)]
-
-# VectorDB Benchmark
+# VectorDB Benchmarks
 
 ## [VectorDB Benchmark Tool](https://zilliz.com/vector-database-benchmark-tool?database=ZillizCloud%2CMilvus%2CElasticCloud%2CPgVector%2CPinecone%2CQdrantCloud%2CWeaviateCloud&dataset=medium&filter=none%2Clow%2Chigh&tab=1)
 VectorDBBench provides unbiased benchmarking results for mainstream vector databases and cloud services.
@@ -34,7 +33,7 @@ Zilliz Cloud, Milvus, Elastic Cloud, PgVector, Pinecone, Qdrant Cloud, Weaviate 
 - **Large**: Cohere10M of 768-dim vectors, OpenAI5M of 1,536-dim vectors
 
 #### Comparison Metrics
-- **QPS**: Throughput showcasing QPS scores and rankings based on QPS and recall.
+- **QPS**
 - **P99 Latency**: Response speed measured by P99 latency scores and rankings.
 - **Cost Ranking**: Cost-performance ratio detailing dollars per million queries.
 
@@ -47,8 +46,7 @@ Explore further benchmarking efforts by various organizations:
 - **BAIDU: [PUCK](https://github.com/baidu/puck/tree/main/ann-benchmarks)**
 - **HUAWEI: [OpenGauss-VectorDB](https://github.com/liu-peng-xi/openGauss-VectorDB/commit/73f3d77db4314dd31b0173744893c98de8834220)**
 # Datasets
-
-Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we categorize the datasets into eight types, which RC (Relative Contrast) is mean average distance / nearest neighbor distance, the smaller RC means the dataset is harder; LID (Local Intrinsic Dimensionality) the high LID means the dataset is hard to process:
+Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we categorize the datasets into eight types, which *RC (Relative Contrast)* is mean average distance / nearest neighbor distance, the smaller RC means the dataset is harder; *LID (Local Intrinsic Dimensionality)* the high LID means the dataset is hard to process:
 ## Dense Vector Datasets
 | Name   | n (×10^3) | d    | RC   | LID  | Category  |Distance|
 |--------|-----------|------|------|------|------------|------------|
