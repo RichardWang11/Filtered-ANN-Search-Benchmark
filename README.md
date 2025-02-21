@@ -3,11 +3,7 @@ Including high-dim filtered vector search.
 
 # Filter ANNS Papers
 
-## Additional Benchmarks
-- [Vector Filtering Benchmarks](https://github.com/qdrant/ann-filtering-benchmark-datasets)
-- [DBWangGroupUNSW_NNS_Benchmark](https://github.com/DBAIWangGroup/nns_benchmark)
-- Li, Wen, Xuemin Lin, et al. ["Approximate nearest neighbor search on high dimensional data—experiments, analyses, and improvement."](https://ieeexplore.ieee.org/document/8681160) IEEE Transactions on Knowledge and Data Engineering 32.8 (2019): 1475-1488.
-- Xinjing Hu, Xuanhua Shi, Shixuan Sun, et al. CANDY: A Benchmark for Continuous Approximate Nearest Neighbor Search with Dynamic Data Ingestion. arXiv preprint arXiv:2406.19651 (2024)[[github](https://github.com/intellistream/CANDY-Benchmark)][[paper](https://arxiv.org/pdf/2406.19651)]
+
 
 # Datasets
 Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we categorize the datasets into eight types, which *RC (Relative Contrast)* is mean average distance / nearest neighbor distance, the smaller RC means the dataset is harder; *LID (Local Intrinsic Dimensionality)* the high LID means the dataset is hard to process:
@@ -57,3 +53,7 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 # Other useful links
 ## [PQ-based variants](https://raw.githubusercontent.com/wiki/facebookresearch/faiss/PQ_variants_Faiss_annotated.png)
 ## [Speach of NeurIPS'21 competition](https://neurips.cc/virtual/2023/competition/66587)
+## Additional Benchmarks
+- [Vector Filtering Benchmarks](https://github.com/qdrant/ann-filtering-benchmark-datasets)
+- [DBWangGroupUNSW_NNS_Benchmark](https://github.com/DBAIWangGroup/nns_benchmark)
+- Xinjing Hu, Xuanhua Shi, Shixuan Sun, et al. CANDY: A Benchmark for Continuous Approximate Nearest Neighbor Search with Dynamic Data Ingestion. arXiv preprint arXiv:2406.19651 (2024)[[github](https://github.com/intellistream/CANDY-Benchmark)][[paper](https://arxiv.org/pdf/2406.19651)]
