@@ -3,18 +3,18 @@ Including recently high-dim filtered vector search methods and datasets.
 
 # Filter ANNS Papers & Methods
 ## Methods
--ACORN
--CAPS
--FilteredVamana
--StitchedVamana
--2D-Segment Graph: it introduces a segment graph that compresses multiple graph-based indexes into a single structure, reducing memory consumption while maintaining high query performance for range filtered ANNS.
--SuperPostFilter: it proposes a tree-based framework to efficiently solve the c-approximate window search problem.
--NHQ:
--[HSIG](https://arxiv.org/abs/2412.02448):
--NGT:is an ANNS library developed by Yahoo Japan that processes hybrid queries using the post-filtering strategy.
--Vearch: is a high-dimensional vector retrieval system developed by Jingdong that supports hybrid queries through the post-filtering strategy.
--ADBV:is a hybrid analytic engine developed by Alibaba. It enhances PQ for hybrid ANNS and proposes the accuracy-aware, cost-based optimization to generate optimal execution plans.
--Milvus: partitions datasets based on commonly utilized attributes and implements ADBV within each subset.
+- ACORN
+- CAPS
+- FilteredVamana
+- StitchedVamana
+- 2D-Segment Graph: it introduces a segment graph that compresses multiple graph-based indexes into a single structure, reducing memory consumption while maintaining high query performance for range filtered ANNS.
+- SuperPostFilter: it proposes a tree-based framework to efficiently solve the c-approximate window search problem.
+- NHQ:
+- [HSIG](https://arxiv.org/abs/2412.02448):
+- NGT:is an ANNS library developed by Yahoo Japan that processes hybrid queries using the post-filtering strategy.
+- Vearch: is a high-dimensional vector retrieval system developed by Jingdong that supports hybrid queries through the post-filtering strategy.
+- ADBV:is a hybrid analytic engine developed by Alibaba. It enhances PQ for hybrid ANNS and proposes the accuracy-aware, cost-based optimization to generate optimal execution plans.
+- Milvus: partitions datasets based on commonly utilized attributes and implements ADBV within each subset.
 # Datasets
 Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we categorize the datasets into eight types, which *RC (Relative Contrast)* is mean average distance / nearest neighbor distance, the smaller RC means the dataset is harder; *LID (Local Intrinsic Dimensionality)* the high LID means the dataset is hard to process:
 ## Dense Vector Datasets
