@@ -1,5 +1,5 @@
-# Advanced-Vector-Benchmarks & Datasets
-Including dense vector, sparse vector, filtered vector and streaming vector search.
+# Filtered-Vector-Search-Benchmarks & Datasets
+Including high-dim filtered vector search.
 
 # ANNS Benchmarks
 ## Billion-scale ANNS Benchmarks
