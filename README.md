@@ -75,27 +75,11 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 |[Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)|60|784| - | -  | Image|L2|
 
 
-
 ## Filtered Dataset
 | Name   | Dim | Data-Type  |Category|Distance|
 |--------|-----------|------|------|------|
 | YFCC-10M + CLIP| 192| uint8|Image|L2|
 
-## OOD Dataset
-| Name   | Dim | Data-Type  |Category|Distance|
-|--------|-----------|------|------|------|
-| Yandex Text2Image-10M| 200| float32|Cross-Model|L2|
-
-## Sparse Dataset
-| Name   | Dim | Data-Type  |Category|Distance|
-|--------|-----------|------|------|------|
-| MS-MARCO/SPLADE| 3000| float32(sparse)|Text|L2|
-
-
-## Streaming Datasets
-| Name   |  Dim | Data-Type   |Category|Distance|
-|--------|-----------|------|------|------|
-| MSTuring-30M| 100| float32|Text|L2|
 
 
 ## Deep Learning Datasets
