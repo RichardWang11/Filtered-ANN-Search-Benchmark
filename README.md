@@ -1,7 +1,8 @@
 # Filtered-Vector-Search-Benchmarks & Datasets
 Including recently high-dim filtered vector search methods and datasets.
 
-# Filter ANNS Methods
+# Filter ANNS Papers & Methods
+## Methods
 -ACORN
 -CAPS
 -FilteredVamana
