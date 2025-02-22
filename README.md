@@ -55,7 +55,7 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 | [Youtube-Audio](https://research.google.com/youtube8m/download.html) | 128| float| Audio||
 | [YouTube-RGB](https://research.google.com/youtube8m/download.html) | 1024| float| Video||
 | [TripClick](https://tripdatabase.github.io/tripclick/) ||| Text||
-| [Redcaps](https://github.com/JoshEngels/RangeFilteredANN) | 512|| multi-modality||
+| [Redcaps](https://github.com/JoshEngels/RangeFilteredANN) | 512|| Multi-modality||
 
 ## Deep Learning Datasets
 | Name   | n (×10^3) | d    |Category|Distance|
