@@ -52,7 +52,7 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 | [Words](https://huggingface.co/datasets/efarrall/word_embeddings/tree/main)| 3072| float|Text||
 | [MTG](https://huggingface.co/datasets/TrevorJS/mtg-scryfall-cropped-art-embeddings-open-clip-ViT-SO400M-14-SigLIP-384)| 1152| float| Image||
 | [WIT-Image](https://www.kaggle.com/c/wikipedia-image-caption/data)| 1024| float| Image||
-| [Youtube-Audio](https://research.google.com/youtube8m/download.html) | 128| float| Vedio||
+| [Youtube-Audio](https://research.google.com/youtube8m/download.html) | 128| float| Video||
 
 ## Deep Learning Datasets
 | Name   | n (×10^3) | d    |Category|Distance|
