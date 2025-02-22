@@ -56,6 +56,7 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 | [YouTube-RGB](https://research.google.com/youtube8m/download.html) | 1024| float| Video||
 | [TripClick](https://tripdatabase.github.io/tripclick/) ||| Text||
 | [Redcaps](https://github.com/JoshEngels/RangeFilteredANN) | 512|| Multi-modality||
+| [ArXiv](https://huggingface.co/datasets/malteos/aspect-paper-embeddings) | 768| float| Text||
 
 ## Deep Learning Datasets
 | Name   | n (×10^3) | d    |Category|Distance|
