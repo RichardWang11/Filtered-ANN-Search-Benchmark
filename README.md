@@ -50,7 +50,7 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 |--------|-----------|------|------|------|
 | YFCC-10M + CLIP| 192| uint8|Image|L2|
 | [Words](https://huggingface.co/datasets/efarrall/word_embeddings/tree/main)| 3072| float64|Text||
-| MTG| 1152| float64| Image||
+| [MTG](https://huggingface.co/datasets/TrevorJS/mtg-scryfall-cropped-art-embeddings-open-clip-ViT-SO400M-14-SigLIP-384)| 1152| float64| Image||
 
 
 ## Deep Learning Datasets
