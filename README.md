@@ -49,7 +49,7 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 | Name   | Dim | Data-Type  |Category|Distance|
 |--------|-----------|------|------|------|
 | YFCC-10M + CLIP| 192| uint8|Image|L2|
-
+| Words + "text-embedding-3-large" from OpenAI| 3072| float64|Text|
 
 
 ## Deep Learning Datasets
