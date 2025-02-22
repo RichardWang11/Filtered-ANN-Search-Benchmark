@@ -57,7 +57,7 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 | [TripClick](https://tripdatabase.github.io/tripclick/) ||| Text||
 | [Redcaps](https://github.com/JoshEngels/RangeFilteredANN) | 512|| Multi-modality||
 | [ArXiv](https://huggingface.co/datasets/malteos/aspect-paper-embeddings) | 768| float| Text||
-| LAION| 512| float| Image||
+| LAION + CLIP| 512| float| Image||
 
 ## Deep Learning Datasets
 | Name   | n (×10^3) | d    |Category|Distance|
