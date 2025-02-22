@@ -53,7 +53,7 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 | [MTG](https://huggingface.co/datasets/TrevorJS/mtg-scryfall-cropped-art-embeddings-open-clip-ViT-SO400M-14-SigLIP-384)| 1152| float| Image||
 | [WIT-Image](https://www.kaggle.com/c/wikipedia-image-caption/data)| 1024| float| Image||
 | [Youtube-Audio](https://research.google.com/youtube8m/download.html) | 128| float| Audio||
-| [YouTube-RGB]((https://research.google.com/youtube8m/download.html))| 1024| Video||
+| [YouTube-RGB](https://research.google.com/youtube8m/download.html))| 1024| Video||
 | [TripClick](https://tripdatabase.github.io/tripclick/)|| Text|
 
 ## Deep Learning Datasets
