@@ -46,14 +46,14 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 
 
 ## Filtered Dataset
-| Name   | Dim | Data-Type  |Category|Distance|
-|--------|-----------|------|------|------|
+| Name   | Dim | Data-Type  |Category|Distance|Attribute type|
+|--------|-----------|------|------|------|------|
 | YFCC-10M + CLIP| 192| uint8|Image|L2|
 | [Words](https://huggingface.co/datasets/efarrall/word_embeddings/tree/main)| 3072| float|Text||
 | [MTG](https://huggingface.co/datasets/TrevorJS/mtg-scryfall-cropped-art-embeddings-open-clip-ViT-SO400M-14-SigLIP-384)| 1152| float| Image||
 | [WIT-Image](https://www.kaggle.com/c/wikipedia-image-caption/data)| 1024| float| Image||
-| [Youtube-Audio](https://research.google.com/youtube8m/download.html) | 128| float| Audio||
-| [YouTube-RGB](https://research.google.com/youtube8m/download.html) | 1024| float| Video||
+| [Youtube-Audio](https://research.google.com/youtube8m/download.html) | 128| float| Audio||publish time, # of views|
+| [YouTube-RGB](https://research.google.com/youtube8m/download.html) | 1024| float| Video||# of likes, # of comments|
 | [TripClick](https://tripdatabase.github.io/tripclick/) ||| Text||
 | [Redcaps](https://github.com/JoshEngels/RangeFilteredANN) | 512|| Multi-modality||
 | [ArXiv](https://huggingface.co/datasets/malteos/aspect-paper-embeddings) | 768| float| Text||
