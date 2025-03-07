@@ -18,8 +18,8 @@ Including recently high-dim filtered vector search methods and datasets.
 # Datasets
 Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160), we categorize the datasets into eight types, which *RC (Relative Contrast)* is mean average distance / nearest neighbor distance, the smaller RC means the dataset is harder; *LID (Local Intrinsic Dimensionality)* the high LID means the dataset is hard to process:
 ## Dense Vector Datasets
-| Name   | n (×10^3) | d    | RC   | LID  | Category  |Distance|
-|--------|-----------|------|------|------|------------|------------|
+| Name   | n (×10^3) | d    | RC   | LID  | Category  |Distance|S-hardness|
+|--------|-----------|------|------|------|------------|------------|------------|
 | Nus   | 269       | 500  | 1.67 | 24.5 | Image      |L2|
 | Gist  | 983       | 960  | 1.94 | 18.9 | Image      ||
 | Rand  | 1,000     | 100  | 3.05 | 58.7 | Synthetic  ||
@@ -46,8 +46,8 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 
 
 ## Filtered Dataset
-| Name   | Dim | Data-Type  |Category|Distance|Attribute type|
-|--------|-----------|------|------|------|------|
+| Name   | Dim | Data-Type  |Category|Distance|Attribute type|# of Attribute|
+|--------|-----------|------|------|------|------|------|
 | YFCC-10M + CLIP| 192| uint8|Image|L2|
 | [Words](https://huggingface.co/datasets/efarrall/word_embeddings/tree/main)| 3072| float|Text||
 | [MTG](https://huggingface.co/datasets/TrevorJS/mtg-scryfall-cropped-art-embeddings-open-clip-ViT-SO400M-14-SigLIP-384)| 1152| float| Image||
