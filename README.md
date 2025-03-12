@@ -58,6 +58,7 @@ Referring to this [paper](https://ieeexplore.ieee.org/abstract/document/8681160)
 | [Redcaps](https://github.com/JoshEngels/RangeFilteredANN) | 512|| Multi-modality||
 | [ArXiv](https://huggingface.co/datasets/malteos/aspect-paper-embeddings) | 768| float| Text||
 | LAION + CLIP| 512| float| Image||
+| wiki-ann(https://huggingface.co/2024annonymous/wiki-ann)|||
 
 ## Deep Learning Datasets
 | Name   | n (×10^3) | d    |Category|Distance|
