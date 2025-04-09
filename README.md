@@ -4,12 +4,13 @@ Including recently high-dim filtered vector search methods and datasets.
 # Filter ANNS Papers & Methods
 ## Methods
 - ACORN
+- NHQ
 - CAPS
 - FilteredVamana
 - StitchedVamana
+- iRangeGraph
 - 2D-Segment Graph: it introduces a segment graph that compresses multiple graph-based indexes into a single structure, reducing memory consumption while maintaining high query performance for range filtered ANNS.
 - SuperPostFilter: it proposes a tree-based framework to efficiently solve the c-approximate window search problem.
-- NHQ:
 - [HSIG](https://arxiv.org/abs/2412.02448):
 - NGT:is an ANNS library developed by Yahoo Japan that processes hybrid queries using the post-filtering strategy.
 - Vearch: is a high-dimensional vector retrieval system developed by Jingdong that supports hybrid queries through the post-filtering strategy.
